@@ -1,0 +1,351 @@
+/* Container */
+.profile-page-container {
+  background: -webkit-linear-gradient(101deg, #f72e93, #bf27e2 56%, #789ef4);
+  background: linear-gradient(101deg, #f72e93, #bf27e2 56%, #789ef4);
+  min-height: 100vh;
+}
+
+@media screen and (max-width: 510px) {
+  .vertical-nav {
+    min-width: 8rem!important;
+    width: 8rem!important;
+  }
+  #dashboard-main {
+    width: calc(100% - 8rem)!important;
+    margin-left: 8rem!important;
+  }
+  #sidebar-top-sec {
+    flex-direction: column;
+  }
+  .img-thumbnail {
+    padding: 0;
+    border: none;
+    margin-right: 0!important;
+    margin-bottom: 5%;
+  }
+  #sidebar {
+    text-align: center;
+  }
+  ul.vertical-nav-items > li {
+    display: flex;
+    flex-direction: column;
+  }
+  li > a.text-dark {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 454px) {
+  .vertical-nav {
+    min-width: 6.85rem!important;
+    width: 6.85rem!important;
+  }
+  #dashboard-main {
+    width: calc(100% - 6.85rem)!important;
+    margin-left: 6.85rem!important;
+  }
+  li > a.text-dark {
+    padding: 1rem 0rem;
+  }
+}
+
+/* Sidebar */
+.vertical-nav {
+  min-width: 11rem;
+  width: 11rem;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s;
+  padding-top: 4%;
+}
+/* Dashboard Top Row */
+#dashboard-main {
+  width: calc(100% - 11rem);
+  margin-left: 11rem;
+}
+#dash-sec-1 {
+  margin-top: 3%;
+}
+div#welcome-text {
+  display: block;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+/*  Second Row  */
+/*  */
+
+.card-number {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: white;
+}
+.card-description {
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+}
+
+.card-icon {
+  padding-top: 20%;
+  text-align: center;
+}
+
+#appointments-card {
+  background: linear-gradient(to top, #ff0844 0%, #ffb199 100%) !important;
+}
+
+#seekers-card {
+  background: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%) !important;
+}
+#balance-card {
+  background: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%) !important;
+}
+
+@media screen and (max-width: 1002px) {
+  #appointments-text{
+    font-size: .95rem;
+  }
+}
+@media screen and (max-width: 993px) {
+  i.fas {
+    font-size: 4em;
+  }
+  #appointments-card {
+    margin-bottom: 3%;
+  }
+  #seekers-card {
+    margin-bottom: 3%;
+  }
+  .card-description {
+    font-size: 2rem;
+  }
+  .card-number {
+    font-size: 3rem;
+  }
+  #appointments-text {
+    font-size: 1.5rem;
+  }
+  #dash-schedule {
+    margin-bottom: 5%;
+  }
+}
+
+@media screen and (max-width: 673px) {
+  .card-description {
+    font-size: 1rem;
+  }
+  #appointments-text {
+    font-size: 1rem;
+  }
+  .card-number {
+    font-size: 2rem;
+  }
+  i.fas {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .text-right {
+    text-align: center!important;
+  }
+  .card-icon {
+    padding-top: 1.5%;
+  }
+  i.fas {
+    font-size: 2rem;
+    margin-bottom: 10%;
+  }
+  #appointments-text, .card-description {
+    font-size: 1rem;
+  }
+  .card-number {
+    font-size: 2rem;
+  }
+  .card-body {
+    padding-bottom: 1%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .phone-resize {
+    padding: 0;
+  }
+  #welcome-text {
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 383px) {
+  #appointments-text {
+    font-size: 0.7rem;
+  }
+  .card-number {
+    font-size: 1.5rem;
+  }
+  div.dash-sec {
+    padding: 0;
+  }
+}
+
+
+/* ROW 3 */
+
+#schedule-header {
+  color: black;
+  font-weight: bold;
+}
+div#dash-schedule {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: .25rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5% 0;
+}
+
+div.react-calendar {
+  border: none;
+}
+@media screen and (max-width: 770px) {
+  div#dash-schedule {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 630px) {
+  div.react-calendar {
+    width: 250px;
+  }
+}
+@media screen and (max-width: 548px) {
+  .react-calendar__navigation button {
+    min-width: auto;
+  }
+  .react-calendar {
+    width: auto;
+    
+  }
+}
+@media screen and (max-width: 530px) {
+  div.react-calendar {
+    min-width: auto;
+    width: auto;
+  }
+  button.react-calendar__navigation__label {
+    min-width: auto;
+  }
+  div.react-calendar__navigation {
+    height: auto;
+    /* width: 10%; */
+  }
+}
+
+
+/* ROW 4 */
+div#dash-sec-4 {
+  margin-top: 5%;
+  border-radius: .25rem;
+}
+
+#patient-notes-module {
+  background: #fbf9f9;
+  padding: 3% 3% 1%;
+}
+
+#note-submit-button {
+  margin-top: 2%;
+}
+
+#notes-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.notes-button-sizing {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+}
+
+#notes-remove {
+  margin-left: 1%;
+}
+
+.dash-sec {
+  margin-top: 5%;
+}
+
+
+
+.module-percentage {
+  font-size: 1rem;
+  margin-right: 1rem;
+  font-weight: 1000;
+}
+
+.module-tracker-progress {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 575px) {
+  .module-tracker-progress {
+    flex-direction: column;
+    text-align: center;
+  }
+  .module-percentage {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .notes-button-sizing {
+    height: 30px;
+    width: 30px;
+  }
+  .list-group-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* text-align: center; */
+  }
+  .notes-row {
+    flex-direction: column;;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .notes-row {
+    flex-direction: column;
+    text-align: center;
+  }
+  #notes-buttons {
+    margin-top: 5%;
+    justify-content: center;
+  }
+  .notes-button-sizing {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  #notes-remove {
+    margin-left: 3%;
+  }
+}
+
+
+
+
+
+

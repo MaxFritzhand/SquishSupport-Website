@@ -1,0 +1,28 @@
+.speech-bubble {
+	position: relative;
+	background: #ff3424;
+  border-radius: .4em;
+  width: 40%;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 28px solid transparent;
+	border-top-color: #ff3424;
+	border-bottom: 0;
+	margin-left: -28px;
+	margin-bottom: -28px;
+}
+
+
+#onboarding-image {
+  width: 8%;
+}
+

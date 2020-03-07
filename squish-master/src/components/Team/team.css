@@ -1,0 +1,326 @@
+
+/***************** Team Page Styling *****************/
+
+.teampage {
+  background: radial-gradient(farthest-side at 80% 50%, #7d71e1, #6e5fe0);
+}
+
+.row-2 {
+  display: flex;
+  flex-direction: row;
+  width:100%;
+}
+
+/*Columns side by side */
+.column {
+  width: 25%;
+  margin: auto;
+  margin-bottom: 10%;
+  padding: 0 8px;
+}
+
+#team-header{
+  width: 100%;
+  margin: auto;
+}
+.white-2 {
+  color: white;
+}
+
+#team-header {
+  margin-top: 10%;
+  margin-bottom: 5%;
+  font-size: 70px;
+}
+
+/* Profile Styling */
+
+.profile-pic {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  border-style: solid;
+  border-width: thick;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+}
+
+.titling {
+  text-align: center;
+}
+
+#profile-john {
+  border-color: rgb(255, 190, 50);
+}
+
+#profile-max {
+  border-color: pink;
+}
+
+#profile-diana {
+  border-color: purple;
+}
+
+#profile-sweeney {
+  border-color: lightgreen;
+}
+
+#profile-roland {
+  border-color: red;
+}
+
+#profile-naomi {
+  border-color: orange;
+}
+
+#profile-derek {
+  border-color: lightskyblue;
+}
+
+#profile-andrew {
+  border-color: teal;
+}
+
+#profile-band {
+  border-color: brown;;
+}
+
+#profile-emmanuel {
+  border-color: yellow;
+}
+
+#profile-kerry {
+  border-color: lightseagreen;
+}
+
+#profile-naomi {
+  border-color: lightsalmon;
+}
+
+/* Footer Styling */
+
+.footer-home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+  padding: 10px 175px 5px;
+  width: 100%;
+  }
+  
+.left-footer {
+  display: flex;
+  flex-direction: row;
+}
+
+.rights {
+  padding-left: 35px;
+  margin: 0;
+}
+
+.copyright {
+  padding-right: 35px;
+  margin: 0;
+}
+
+.text-box {
+  background-color: #fff;
+  position: relative;
+  visibility: hidden;
+  color: white;
+  
+}
+
+.img__wrap {
+  position: relative;
+}
+
+.img__description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(41, 41, 41, 0.72);
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  text-align: center;
+  border-radius: 7px;
+  height: 370px;
+  size: 200%;
+  
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.hover-text{
+  margin-top: 5%;
+  margin-left: 12%;
+  margin-right: 12%;
+}
+.img__wrap:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Media Queries*/
+@media screen and (min-width: 1650px) {
+  h2.white-2{
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .row-2{
+    width: 85%;
+    margin: auto;
+  }
+  .column {
+    width: 25%;
+    margin: auto;
+    margin-bottom: 10%;
+    padding: 0 8px;
+  }
+  .profile-pic {
+    height: 300px;
+    width: 300px;
+  }
+  
+  h2.white-2{
+    font-size: 30px;
+  }
+  .titling{
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .row-2{
+    width: 85%;
+    margin: auto;
+  }
+  #team-header{
+    font-size: 90px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+    #team-header{
+      margin-top: 7%;
+    }
+    #row-4{
+      width: 60%;
+    }  
+}
+
+@media screen and (max-width: 1299px) {
+  .row-2{
+  width: 85%;
+  margin: auto;
+  }
+  #row-4{
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 1190px) {
+  .profile-pic {
+    height: 200px;
+    width: 200px;
+  }
+  .row-2{
+    width: 90%;
+    margin: auto;
+  }
+  #row-4{
+    width: 60%;
+  }
+  .column {
+    width: 25%;
+    margin: auto;
+    margin-bottom: 10%;
+    padding: 0 8px;
+  }
+  h2.white-2{
+    font-size: 25px;
+  }
+
+  }
+
+  @media screen and (max-width: 950px) {
+    .profile-pic {
+      height: 200px;
+      width: 200px;
+    }
+    .row-2{
+      width: 90%;
+      margin: auto;
+    }
+    .column {
+      width: 25%;
+      margin: auto;
+      margin-bottom: 10%;
+      padding: 0 8px;
+    }
+    h2.white-2{
+      font-size: 20px;
+    }
+    }
+
+  @media screen and (max-width: 850px) {
+    .row-2,
+    .column {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      display: block;
+      margin: auto;
+      margin-bottom: 10%;
+    }
+    .profile-pic {
+      height: 250px;
+      width: 250px;
+    }
+    h2.white-2{
+      font-size: 30px;
+    }
+  
+  }
+  
+  @media screen and (max-width: 650px) {
+  .row-2,
+  .column {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    display: block;
+    margin: auto;
+    margin-bottom: 10%;
+  }
+  #team-header {
+    margin-top: 20%;
+    margin-bottom: 10%;
+    padding: 10px;
+    font-size: 70px;
+  }  
+  h2.white-2{
+    font-size: 30px;
+  }
+
+
+
+
+}
+
+
+
+
+

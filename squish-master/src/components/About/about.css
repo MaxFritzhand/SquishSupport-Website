@@ -1,0 +1,228 @@
+/**************** About Page  ****************/
+/* Background */
+.aboutpage {
+  display: flex;
+  flex-wrap: wrap;
+  background: radial-gradient(farthest-side at 80% 40%, #7d71e1, #6e5fe0);
+  height: 100vh;
+  overflow: scroll;
+  margin: 0;
+  z-index: 1;
+  flex-direction: row;
+}
+
+.squishin-mission{
+  width: 80%;
+  background-color: white;
+  margin: auto;
+  margin-top: 75px;
+  margin-bottom: 5%;
+  border-radius: 40px;
+  padding: 30px;
+}
+
+.hector {
+  font-family: Ubuntu !important;
+}
+
+.about-content,
+.about-header {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  float: left;
+  width: 60%;
+  text-align: center;
+  align-items: center;
+}
+
+.about-right-content {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  text-align: center;
+  align-items: center;
+  padding-right: 5%;
+}
+
+h1.homestyle {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.mission-statement{
+  text-align: center;
+  margin: auto;
+}
+
+.bigboi {
+  margin-top: 5%;
+}
+
+.right-content {
+  display: flex;
+  width: 50%;
+}
+
+.quotesdiv {
+  display: flex;
+  width: 100%;
+}
+
+.quotes {
+  width: 100%;
+}
+
+.white{
+  color: white;
+}
+
+.purple{
+  color: #7d71e1;
+}
+
+#footer-about{
+  margin-top: 40px;
+}
+.about-page-footer{
+  width: 90%;
+  margin: auto;
+}
+.about-page-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.about-page-footer-content {
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+} 
+
+.terms-of-use{
+  padding-left: 35px;
+}
+
+/************ Media Queries ************/
+
+@media screen and (min-width: 1280px) {
+  .squishin-mission{
+    margin-top: 100px;
+    padding: 40px;
+  }
+  .mission-statement{
+    font-size: 35px;
+  }
+  .homestyle{
+    width: 100%;
+  }
+  .bigboi {
+    width: 100%;
+  }
+  .right-content{
+    width: 70%;
+  }
+  .about-right-content{
+    margin-top: 10%;
+  }
+  .quotesdiv{
+    padding: 60px;
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .squishin-mission{
+    margin-top: 120px;
+    margin-bottom: 3%;
+    padding: 40px;
+  }
+
+  .homestyle{
+    width: 100%;
+  }
+
+  .bigboi {
+    width: 98%;
+  }
+  .quotesdiv{
+    width: 400px;
+  }
+}
+
+
+@media screen and (max-width: 1280px) {
+  .squishin-mission{
+    margin-top: 85px;
+  }
+  .homestyle{
+    width: 100%;
+  }
+  .about-content{
+    width: 100%;
+  }
+  .bigboi {
+    width: 95%;
+  }
+  .right-content{
+    display: none;
+  }
+  .about-right-content{
+    width: 50%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 1045px) {
+  .squishin-mission{
+    border-radius: 40px;
+  }
+  .homestyle{
+    width: 100%;
+  }
+  .about-content{
+    width: 100%;
+  }
+  .bigboi {
+    width: 95%;
+  }
+  .right-content{
+    display: none;
+  }
+  .about-right-content{
+    width: 60%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 779px) {
+  .squishin-mission{
+    border-radius: 30px;
+  }
+  .about-content{
+    width: 100%;
+  }
+  .bigboi {
+    width: 90%;
+  }
+  .about-right-content{
+    margin: auto;
+    width: 70%;
+  }
+  .right-content{
+    display: none;
+  }
+  .quotesdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10%;
+    padding: 30px 0;
+  }
+  #footer-about{
+    margin-top: 0;
+  }
+}
+

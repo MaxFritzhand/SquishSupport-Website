@@ -1,0 +1,112 @@
+/**************   Page Layout   **************/
+-webkit-transform: scale(1.2);
+-moz-transform: scale(1.2);
+-o-transform: scale(1.2);
+transform: scale(1.2);
+
+
+* {
+  box-sizing: border-box;
+}
+
+html, body  {
+  /* height: 100%;	 */
+  margin: 0;	
+  overflow-x: hidden;	
+  font-family: 'Ubuntu', sans-serif;;
+}
+
+.wrapper {
+  overflow-x: hidden;
+}
+
+/**************   Navigation    **************/
+
+/* Navbar.Brand ("SQUISH") */
+#nav-home {
+  font-family: 'Ubuntu', PT Sans;
+  font-weight: bold;
+}
+
+#nav-home.white-bg {
+  color:#5747D8;
+}
+
+#nav-home.purple-bg {
+  color: #ffffff;
+}
+
+#nav-links.welcome-page {
+  color: #ffffff;
+}
+#nav-links.specialites {
+  color: white;
+}
+
+/* Nav Links */
+#nav-links {
+  font-family: 'Ubuntu', PT Sans;
+}
+
+#nav-links.white-bg > a {
+  color:#5747D8;
+}
+
+#nav-links.purple-bg > a {
+  color: #ffffff;
+}
+
+#nav-links.modified > a {
+  color: white;
+}
+
+#nav-links.strange > a {
+  color:#5747D8;
+}
+
+#nav-links.welcome-page > a {
+  color: #ffffff;
+}
+
+
+
+
+/* @media screen and (max-width: 992px) {
+  #nav-links.purple-bg > a {
+    color:#5747D8;
+  }
+  #nav-links.modifed > a {
+    color:#5747D8;
+  }
+  #nav-links.strange > a {
+    color: #ffffff;
+  }
+  #nav-links.welcome-page > a {
+    color: #ffffff;
+  }
+  #nav-links.specialites > a {
+    color: #5747D8;
+  }
+} */
+
+/**************   Disabling Input Number Field Spinner   **************/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+
+
+/* FOR TODOFORM */
+
+.vert-offset-top-0{
+  margin-top: 0em;
+}
+.vert-offset-top-2{
+  margin-top: 2em;
+}

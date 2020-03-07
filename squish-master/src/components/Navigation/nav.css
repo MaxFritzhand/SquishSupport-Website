@@ -1,0 +1,65 @@
+
+#nav-links.modified > a {
+  color: blue;
+}
+/* #nav-links{
+  color: #5747D8;
+} */
+
+/* @media screen and (max-width: 992px) {
+  #nav-links.purple-bg > a {
+    color:#5747D8;
+  }
+  a.nav-link {
+    color:#5747D8;
+  }
+}  */
+
+#nav-links{
+  color: white;
+  font-size: 0.85rem;
+  font-weight: bold;
+  /* background: rgba(0, 0, 0, 0.66);
+  opacity: 0.8; */
+}
+
+@media screen and (max-width: 992px) {
+  #nav-links.purple-bg > a {
+    color: white;
+  }
+  a.nav-link {
+    color: white;
+  }
+} 
+
+.scrolled-bg {
+  background: linear-gradient(to bottom right, #F273C1, #9E8DFF, #C350FF);
+  opacity: 0.85;
+}
+
+/* .navbar-nav .nav-link {
+  padding-right: 8%;
+  background: linear-gradient(to bottom right, #F273C1, #9E8DFF, #C350FF);
+  width: 100vw!important;
+  text-align:left;
+  border: 1px solid white;
+} */
+
+
+#squish-nav {
+  margin-bottom: 5%;
+  /* background-color: black!important ; */
+  /* background-color: rgba(242, 115, 193, 0.3); */
+  /* opacity: 0.85; */
+  /* background: linear-gradient(#F273C1, #9E8DFF, #C350FF); */
+}
+
+#squish-nav.nav-home-bg {
+    background-color: rgba(242, 115, 193, 0.3);
+}
+
+/* @media screen and (max-width: 991px) {
+  .profile-page-nav {
+    background-color: rgba(242, 115, 193, 0.5);
+  }
+} */

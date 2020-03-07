@@ -1,0 +1,153 @@
+/* Page Background */
+.complete-profile-bg {
+  position: absolute;
+  background: #5747d8 no-repeat fixed;
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100vw;
+  z-index: 2;
+}
+
+/* Form Container */
+#complete-profile-container {
+  position:relative;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 80%;
+  border-radius: 63px;
+  border: solid 0.4px #707070;
+  background-color: #ffffff;
+  align-items: center;
+  text-align: center;
+  margin-top: 8%;
+  z-index: 5;
+}
+
+/* Form First Row */
+#image-row {
+  margin-top: 3%;
+  justify-content: center;
+}
+div#subtext-row {
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+#complete-profile-image {
+  width: 40%;
+}
+#onboarding-header {
+  font-size: 30px;
+  font-family: 'Ubuntu', sans-serif;;
+  margin-bottom: 1%;
+}
+#onboarding-subtext {
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+/* Form Second Row */
+#complete-profile-row {
+  width: 100%;
+}
+.profile-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 90%;
+  text-align: center;
+}
+.complete-profile-input {
+  border: solid 0.5x #707070;
+  margin: 4px;
+  font-weight: bold;
+  width: 50%;
+  text-align: center;
+}
+
+/* Third Row (Checkboxes) */
+.checkboxes {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4%;
+  text-align: left;
+}
+
+
+/* Bottom Row */
+#onboarding-bottom-row {
+  width: 100%;
+}
+#onboarding-bottom-left {
+  display: flex;
+  justify-content: left;
+}
+.cancel-button {
+  border: 1px solid #C350FF;
+  background: transparent;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+  padding: 5px 25px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.step-buttons {
+  border-radius: 20px;
+  border: 1px solid #ff4b2b;
+  background-color: #ff4b2b;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  transition: transform 80ms ease-in;
+  padding: 5px 25px;
+  width: 100%;
+  text-align: center;
+}
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 767px) {
+  #onboarding-bottom-left {
+    justify-content: center;
+    display: block;
+  }
+
+}
+@media screen and (max-width: 550px) {
+  .complete-profile-input {
+    width: 100%;
+  }
+  #complete-profile-container {
+    margin-top: 15%;
+  }
+}
+
+
+
+
+
+
+/* To Add Later for Bitmoji */
+#add-profile-pic {
+  width: 10%;
+  margin-bottom: 3%;
+}
+
+
+
+
+
+
+
+
+
+

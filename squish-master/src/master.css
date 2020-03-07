@@ -1,0 +1,122 @@
+/* Page Layout
+* {
+  box-sizing: border-box;
+}
+
+
+.content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+  float: left;
+  width: 58%;
+  text-align: center;
+  align-items: center;
+}
+
+.right-content {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  float: right;
+  width: 42%;
+  text-align: center;
+  align-items: center;
+} */
+
+/* Main Element Styling*/
+/* .nav {
+  display: flex;
+  flex-direction: row-reverse;
+} */
+
+/* body {
+  background: radial-gradient(farthest-side at 80% 50%, #7d71e1, #6e5fe0);
+} */
+
+/* h1,
+h2,
+p,
+#copyright,
+#rights,
+#privacy,
+#terms {
+  color: white;
+} */
+
+/* .btn {
+  color: #6e5fe0;
+  border-color: white;
+  background-color: white;
+  margin: 25px 10px 25px 15px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+#squish {
+  width: 90%;
+}
+
+.squishcontainer {
+  width: 85%;
+  background-color: white;
+  border-radius: 50px;
+  margin-top: 70px;
+}
+
+h2 {
+  font-size: 65px;
+}
+
+#absolute {
+  padding-top: 0.5em;
+  line-height: 100px;
+}
+
+.bottom-left {
+  padding-bottom: 190px;
+}
+
+.empty1 {
+  height: 450px;
+}
+
+.empty2 {
+  height: 250px;
+} */
+
+/* Right Side Styling*/
+
+/* .secondary {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  border-radius: 380px 0 0 0;
+}
+
+#purple {
+  width: 75%;
+  margin-top: 6em;
+}
+
+#nurple {
+  width: 70%;
+  margin-top: 2em;
+}
+
+.appdemo {
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+#appmain,
+#appmessages {
+  width: 40%;
+}
+
+#download {
+  width: 30%;
+  padding-top: 10px;
+} */

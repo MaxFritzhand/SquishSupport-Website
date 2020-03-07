@@ -1,0 +1,123 @@
+.landing-page {
+  background: #6F5CE3;
+  min-height: 100vh;
+  width: 100vw!important;
+  min-width: 100vw!important;
+}
+.white-text {
+  color: white;
+  text-align: center;
+}
+.purple-text {
+  color: #6F5CE3;
+  text-align: center;
+}
+
+.landing-page-errors {
+  color: red;
+  margin-bottom: 3%;
+  text-align: center;
+}
+
+
+/* SECTION 1 */
+.landing-section-1 {
+  width: 100vw!important;
+  min-width: 100vw!important;
+  background: #6F5CE3;
+  padding-top: 7.5%;
+  padding-bottom: 5%;
+}
+#section-1-text {
+  /* margin-left: 10%; */
+  color: white;
+}
+#section-1-subtext {
+  margin: 3% 0;
+  width: 50%;
+}
+
+#landing-section-1-button {
+  border-radius: 20px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+}
+
+
+
+/* SECTION 2 */
+#landing-section-2{
+  width: 100vw!important;
+  min-width: 100vw!important;
+  background: white;
+}
+.landing-section-2-images {
+  width: 40%;
+  margin: 8% 0;
+}
+#landing-section-2-row-1{
+  margin-top: 4%;
+}
+#landing-section-2-header{
+  margin-bottom: 3%;
+}
+#landing-section-2-row-2 {
+  margin: 4%;
+}
+#sec-2-button {
+  background: white;
+  color: #6F5CE3;
+  border: 1px solid #6F5CE3;
+  border-radius: 25px;
+  margin-bottom: 3%;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+} 
+
+
+
+
+/* SECTION 3 */
+#landing-section-3 {
+  width: 100vw!important;
+  min-width: 100vw!important;
+  background: #6F5CE3;
+  padding-top: 5%;
+}
+
+#sec-3-header {
+  width: 60%;
+  color: white;
+}
+
+#sec-3-button {
+  margin: 3%;
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 25px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+}
+
+#form-section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+}
+
